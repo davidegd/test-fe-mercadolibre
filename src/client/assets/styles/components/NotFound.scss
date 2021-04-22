@@ -1,0 +1,18 @@
+@import "../custom.scss";
+
+.product__not__found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.product__not__found__title {
+  color: $heavy-gray;
+}
+
+.product__not__found__subtitle {
+  color: $medium-gray;
+  margin-top: $margin32;
+}

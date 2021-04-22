@@ -1,0 +1,37 @@
+@import "../custom.scss";
+
+.input__container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.input__search {
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 0;
+  font-size: 18px;
+  border: none;
+  display: inline-block;
+  height: 40px;
+  padding: 15px;
+}
+
+.input__search:focus {
+  outline: none;
+}
+
+.button__search {
+  background-color: $light-gray;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 5px;
+  height: 40px;
+  width: 45px;
+  padding: 5px;
+  text-align: center;
+  border: none;
+}

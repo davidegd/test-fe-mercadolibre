@@ -26,7 +26,7 @@ npm install
 ## Step 2
 
 ```
-yarn start
+yarn start:dev
 ```
 
 # Build for production mode
@@ -50,12 +50,6 @@ yarn build
 # Application run in Port
 
 **3000**
-# ScallFolding
 
-
-
-# Author
-
-- **David Gomez**
 
 
